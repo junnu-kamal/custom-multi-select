@@ -1,0 +1,11 @@
+<div style="width:250px;">
+        <appCustomMultiSelect  [auto_select_options] =  '[{ item_key: "adidas", item_value: "adidas" }, { item_key: "batman", item_value: "batman" }]' [options]='[
+        { item_key: "walmart", item_value: "walmart" },
+        { item_key: "adidas", item_value: "adidas" },
+        { item_key: "super hero", item_value: "super hero" },
+        { item_key: "batman", item_value: "batman" },
+        { item_key: "superman", item_value: "superman" },
+        { item_key: "antman", item_value: "antman" }
+      ]' (ondragged) =  "getoptions($event)" (onItemSelected) =  "getSelectedOptions($event)"  ></appCustomMultiSelect>
+    
+    </div>
